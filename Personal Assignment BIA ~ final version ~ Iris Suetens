@@ -11,7 +11,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 2,
       "metadata": {
         "id": "rGZ6kbilZZYM"
       },
@@ -108,14 +108,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 3,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 233
+          "height": 412
         },
         "id": "d9GkXOmNolo7",
-        "outputId": "49280411-a573-42a3-9ad5-89205e0cba12"
+        "outputId": "55ae709e-9878-4492-f383-56dedc2e3c8c"
       },
       "outputs": [
         {
@@ -168,7 +168,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-c2f92d20-42ff-4211-8def-af6aad7f241e\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-582d3bb7-15b2-4ea5-b559-f363654e609a\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -338,7 +338,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-c2f92d20-42ff-4211-8def-af6aad7f241e')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-582d3bb7-15b2-4ea5-b559-f363654e609a')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -390,12 +390,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-c2f92d20-42ff-4211-8def-af6aad7f241e button.colab-df-convert');\n",
+              "        document.querySelector('#df-582d3bb7-15b2-4ea5-b559-f363654e609a button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-c2f92d20-42ff-4211-8def-af6aad7f241e');\n",
+              "        const element = document.querySelector('#df-582d3bb7-15b2-4ea5-b559-f363654e609a');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -424,7 +424,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 13
+          "execution_count": 3
         }
       ],
       "source": [
@@ -444,14 +444,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 4,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 1000
         },
         "id": "0pQtR0cMXO-S",
-        "outputId": "1beb7ece-7951-4c43-8d97-2e4edc3abad4"
+        "outputId": "6f6e6f18-0892-4eb9-97d1-0d0d7ae780f0"
       },
       "outputs": [
         {
@@ -684,7 +684,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 6
+          "execution_count": 4
         }
       ],
       "source": [
@@ -693,13 +693,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 5,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "S_4yGp-xXRft",
-        "outputId": "61e9c366-6c32-4118-b87e-06d8501a5d5d"
+        "outputId": "7113f3c0-9eca-442a-c1c2-bf8efb4ca525"
       },
       "outputs": [
         {
@@ -710,7 +710,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 7
+          "execution_count": 5
         }
       ],
       "source": [
@@ -765,6 +765,8 @@
         "### The funding_total_usd column is currently stored as a string with commas and extra whitespace.\n",
         "\n",
         "# Step 1: Strip any leading/trailing whitespace from the column name and its values.\n",
+        "\n",
+        "\n",
         "\n",
         "\n",
         "# Step 2: Remove commas, spaces, and hyphens, then convert the column to a numeric float64 type, handling errors by setting to 0.\n",
